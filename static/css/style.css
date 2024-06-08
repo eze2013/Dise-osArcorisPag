@@ -288,3 +288,20 @@ nav ul li ul li a:hover{
 #reset:hover{
     background-color: darkred;
 }
+
+/* PAGINA DE CONTACTO*/
+
+#consulta{
+    border: 1px solid #9370DB;
+    margin-left: 25px;
+}
+
+input[type="radio"] {
+    transform: scale(1.2); /* tamaño de los circulos */
+    border: #9370DB;
+    cursor: pointer;
+}
+
+#botones{
+    text-align: center;
+}
