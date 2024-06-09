@@ -5,20 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/static/img/icono-DA.ico">
     <link rel="stylesheet" href="/static/css/style.css">
-    <title>Contacto DA</title>
+    <title>Iniciar Sesion DA</title>
 </head>
 <body>
     <header>
         <div class="container__menu">
             <div class="menu">
-                <label for="">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
                 <nav>
                     <ul>
                         <li><a href="/index.html">INICIO</a>
                             <ul>
-                                <li><a href="/templates/inicioSesion.html">INICIAR SESION CLIENTES</a></li>
+                                <li><a href="/templates/inicioSecion.html">INICIAR SESION CLIENTES</a></li>
                                 <li><a href="/templates/registro.html">REGISTRO NUEVO CLIENTE</a></li>
                             </ul>
                         </li>
@@ -55,59 +52,25 @@
     <main>
         <div class="menu-registro">
             <div class="titulo-registro">
-                <h1>CONTACTO</h1>
+                <h1>INICIAR SESIÓN</h1>
             </div>
 
             <form action="">
-                <label id="tipo-registro" for="nombre">Nombre:</label>
-                <input type="text" id="datos-registro" name="nombre"><br>
+                <label for="usuario" id="tipo-inicio">E-MAIL:</label><br>
+                <input type="text" id="datos-inicio" name="usuario"><br>
 
-                <label id="tipo-registro" for="apellido">Apellido:</label>
-                <input type="text" id="datos-registro" name="apellido"><br>
+                <label for="contraseña" id="tipo-inicio">CONTRASEÑA:</label><br>
+                <input type="password" id="datos-inicio" name="contraseña"><br><br>
 
-                <label id="tipo-registro" for="documento">Documento:</label>
-                <input type="email" id="datos-registro" name="email"><br>
-
-                <label id="tipo-registro" for="telefono">Telefono:</label>
-                <input type="number" id="datos-registro" name="telefono"><br>
-
-                <div class="titulo-registro">
-                    <h5>PRODUCTO DE SU CONSULTA:</h4>
-                </div>
-                
-                <div>
-                    <label id="tipo-registro" for="tazas">Tazas</label>
-                    <input type="radio" id="" name="producto" value="taza">
-
-                    <label id="tipo-registro" for="Remeras">Remeras</label>
-                    <input type="radio" id="" name="producto" value="remeras">
-
-                    <label id="tipo-registro" for="vinilo">Vinilos</label>
-                    <input type="radio" id="" name="producto" value="vinilo"><br>
-
-                    <label id="tipo-registro" for="set">Set de jardin</label>
-                    <input type="radio" id="" name="producto" value="set"><br>
-
-                    <label id="tipo-registro" for="fotografia">Fotografias</label>
-                    <input type="radio" id="" name="producto" value="fotografia">
-
-                    <label id="tipo-registro" for="cumpleaños">Cumpleaños</label>
-                    <input type="radio" id="" name="producto" value="cumpleaños">
-
-                    <label id="tipo-registro" for="stikers">Stikers</label>
-                    <input type="radio" id="" name="producto" value="stiker">
-
-                    <label id="tipo-registro" for="impresiones">Impresiones</label>
-                    <input type="radio" id="" name="producto" value="impresiones">
-                </div><br>
-
-                <textarea name="consulta" id="consulta" cols="50" rows="6" placeholder="Escriba su consulta..."></textarea><br>
                 <div id="botones">
-                    <button type="submit" id="sumit">Enviar</button>
+                    <button type="submit" id="sumit">Conectarse</button>
                     <button type="reset" id="reset">Limpiar</button>
                 </div>
+                
             </form>
-        </div><br>
+
+        </div>
+        <br><br>
     </main>
     <footer>
         <div class="footer">

@@ -305,3 +305,18 @@ input[type="radio"] {
 #botones{
     text-align: center;
 }
+
+/* INICIAR SESION*/
+
+#datos-inicio{
+    padding: 5px;
+    border: 1px solid #9370DB;   
+    width: 280px;
+    margin-left: 110px;
+}
+
+#tipo-inicio{
+    font-style: italic;
+    color: #7B68EE;
+    margin-left: 100px;
+}
