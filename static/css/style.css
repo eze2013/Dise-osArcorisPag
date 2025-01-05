@@ -174,9 +174,9 @@ nav ul li ul li a:hover{
 }
 
 #titulo-f{
-    color: white;
-    font-size: 35px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-family:titulo;
     margin-left: 100px;
 }
 
@@ -184,7 +184,7 @@ nav ul li ul li a:hover{
     color: blue;
     font-size: 20px;
     font-style: italic;
-    margin-left: 450px;
+    text-align: center;
 }
 
 #redes{
@@ -233,6 +233,8 @@ nav ul li ul li a:hover{
     font-size: 40px;
     text-align: center;
     color: #9370DB;
+    font-family: titulo;
+    text-shadow: 2px 2px 0px white, 1px 1px 0px black;
 }
 
 #datos-registro{
@@ -274,21 +276,6 @@ nav ul li ul li a:hover{
     font-style: italic;
 }
 
-.TyC{
-    padding: 10px;
-    margin-top: 15px;
-    color: #9370DB;
-    font-style: italic;
-}
-
-#sumit:hover{
-    background-color: #BA55D3;
-}
-
-#reset:hover{
-    background-color: darkred;
-}
-
 /* PAGINA DE CONTACTO*/
 
 #consulta{
@@ -319,4 +306,77 @@ input[type="radio"] {
     font-style: italic;
     color: #7B68EE;
     margin-left: 100px;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url('../fonts/PUSAB___.otf');
+}
+
+.titulo_pag_varias{
+    text-align: center;
+    padding: 25px;
+    font-size: 60px;
+    color: #7B68EE;
+    font-family:titulo;
+    text-shadow: 2px 1px 0px #fff,6px 6px 0px #222;
+    
+}
+
+#explicacion_titulo{
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#boton1{
+    padding: 15px;
+    margin: 5px;
+    background-color:  #7B68EE;
+    color: white;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton2{
+    padding: 15px;
+    margin: 5px;
+    margin-top: 5px;
+    background-color:green;
+    height: 40px;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#img_prod{
+    height: 350px;
+    width: 500px;
+}
+
+#boton-medio{
+    margin-left: -300px;
+}
+
+.prod_varios_1img{
+    margin: 15px;
+    padding: 20px 5px;
+    background: rgba(255, 255, 255, 0.433);
+    margin-bottom: 25px;
+    display:inline-flex;
+    margin-left: 200px;
+}
+
+.text_pro_imgizq{
+    padding:0 0 0 30px;
+}
+
+.text_pro_imgder{
+    padding: 0 30px 0 0;
 }
